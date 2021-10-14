@@ -7,9 +7,9 @@ answer_C = ["C", "c"]
 yes = ["Y", "y", "yes"]
 no = ["N", "n", "no"]
 
-# Grabbing objects
-sword = 0
-flower = 0
+
+log = 0
+flare = 0
 
 required = ("\nUse only A, B, or C\n")
 
@@ -80,7 +80,7 @@ def option_cave():
               "but he can smell you ,you DUMBASS"
               "You got nowhere to run,...\n\nYou died in agony!")
     elif choice in answer_B:
-        if sword > 0:
+        if log > 0:
             print("\nYou laid in wait. The Log was not that heavy you could swing it at "
                   "the chimp, which was not amused by your toy at all. As the chimp stormed in "
                   "closer and closer to you, your heart beat rapidly.Adrenaline settles in as the chimp "
